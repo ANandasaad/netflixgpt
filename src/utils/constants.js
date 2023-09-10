@@ -11,4 +11,9 @@ export const API_OPTIONS = {
     "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhY2M3YzBhMzUyYzI5MzcwZWVhY2VmY2VkYjgwNmQ4OSIsInN1YiI6IjYyZDE2ZTUyYWY0MzI0MDA0YzhiMWI1NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ms91XwpylpqJiV9gO6YdLzu-OZbIOdxSozYWehR2OR8",
 };
 export const API_KEY = "acc7c0a352c29370eeacefcedb806d89";
-export const MOVIE_URL = `https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=${API_KEY}`;
+export const MOVIE_URL = `https://api.themoviedb.org/3/movie/now_playing?page=2&api_key=${API_KEY}`;
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
+export const POPULAR_MOVIES_URL = `https://api.themoviedb.org/3/movie/popular?language=en-US&page=3&api_key=${API_KEY}`;
+export const TOP_RATED_MOVIES_URL = `https://api.themoviedb.org/3/movie/top_rated?language=en-IND&page=4&api_key=${API_KEY}`;
+export const UPCOMING_MOVIES_URL = `https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=2&api_key=${API_KEY}`;
