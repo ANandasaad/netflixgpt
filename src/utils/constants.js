@@ -17,3 +17,14 @@ export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
 export const POPULAR_MOVIES_URL = `https://api.themoviedb.org/3/movie/popular?language=en-US&page=3&api_key=${API_KEY}`;
 export const TOP_RATED_MOVIES_URL = `https://api.themoviedb.org/3/movie/top_rated?language=en-IND&page=4&api_key=${API_KEY}`;
 export const UPCOMING_MOVIES_URL = `https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=2&api_key=${API_KEY}`;
+export const BG_NETFLIX_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/00103100-5b45-4d4f-af32-342649f1bda5/64774cd8-5c3a-4823-a0bb-1610d6971bd4/IN-en-20230821-popsignuptwoweeks-perspective_alpha_website_medium.jpg";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "german", name: "German" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+  { identifier: "portuguese", name: "Portuguese" },
+  { identifier: "french", name: "French" },
+];
