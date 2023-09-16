@@ -7,8 +7,7 @@ export const NetflixLogo =
 export const API_OPTIONS = {
   method: "GET",
   headers: { accept: "application/json" },
-  Authorization:
-    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhY2M3YzBhMzUyYzI5MzcwZWVhY2VmY2VkYjgwNmQ4OSIsInN1YiI6IjYyZDE2ZTUyYWY0MzI0MDA0YzhiMWI1NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ms91XwpylpqJiV9gO6YdLzu-OZbIOdxSozYWehR2OR8",
+  Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
 };
 export const API_KEY = "acc7c0a352c29370eeacefcedb806d89";
 export const MOVIE_URL = `https://api.themoviedb.org/3/movie/now_playing?page=2&api_key=${API_KEY}`;
@@ -29,5 +28,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "french", name: "French" },
 ];
 
-export const OPEN_AI_KEY =
-  "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";
+export const OPEN_AI_KEY = process.env.REACT_APP_OPEN_AI_KEY;
